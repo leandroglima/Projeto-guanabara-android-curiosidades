@@ -243,15 +243,24 @@ footer p > a:hover {
   
 
 
-@media (min-width: 426px) and (max-width: 525px){
+@media (max-width: 621px) {
     header {
-        padding: 1em;
+        padding: 1em 0 0 0;
     }
 
     nav  {
         display: flex;
         align-items: center;
-        font-size: 15px;
+        font-size: 14px;
+    }
+
+
+    main h1 {
+        font-size: 1.4em;
+    }
+
+    main h2 {
+        font-size: 1.3em;
     }
 
     
@@ -262,18 +271,23 @@ footer p > a:hover {
         width: 90%;
     }
 
+
+    aside {
+        width: 90%;
+    }
+
     aside .menu__lista {
         display: flex;
         justify-content: center;
         gap: 2em;
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
     footer p {
         text-align: center;
         padding: .8em;
-        font-size: 15px;
+        font-size: 14px;
     }
 
 
